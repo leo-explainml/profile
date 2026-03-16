@@ -203,15 +203,15 @@ export default function Home() {
             Leonardo Apolonio
           </h1>
           <p className="mb-6 max-w-xl text-xl text-muted">
-            Staff Machine Learning Engineer building intelligent text analytics
-            and LLM systems at{" "}
-            <span className="text-foreground">Qualtrics</span>. 10+ years
-            turning research into production ML.
+            Staff ML Engineer. 10+ years building systems that work quietly at
+            scale — NLP platforms, LLM pipelines, text analytics infrastructure.
+            Currently at <span className="text-foreground">Qualtrics</span>.
+            Founder of <span className="text-foreground">Quiet Scale</span>.
           </p>
           <p className="mb-8 max-w-lg text-sm leading-relaxed text-muted">
-            I specialize in NLP, weak supervision, and human-in-the-loop
-            approaches. Previously at Clarabridge, Oracle, and DARPA. MS
-            Computer Science from Georgia Tech.
+            I care about the unglamorous parts of ML — evaluation, data quality,
+            the bridge from research to production. Previously at Clarabridge,
+            Oracle, and DARPA. MS CS from Georgia Tech.
           </p>
           <div className="flex items-center gap-4">
             <a
@@ -249,6 +249,16 @@ export default function Home() {
               <ChevronDown className="h-5 w-5" />
             </a>
           </div>
+        </section>
+
+        {/* Philosophy */}
+        <section className="pb-20">
+          <blockquote className="border-l-2 border-accent/40 pl-6 text-muted leading-relaxed">
+            I believe the best systems are the ones nobody notices — because they
+            just work. Quiet Scale is the company I&apos;m building around that
+            idea: AI infrastructure and tools that earn trust through
+            reliability, not hype.
+          </blockquote>
         </section>
 
         {/* Experience */}
@@ -462,8 +472,8 @@ export default function Home() {
               Get in touch
             </h2>
             <p className="mb-6 text-sm text-muted">
-              Interested in collaboration, speaking, or just want to chat about
-              ML and NLP?
+              Building something that needs to work at scale? Or just want to
+              talk shop about ML and production systems.
             </p>
             <a
               href="mailto:apolonio.leonardo@gmail.com"
@@ -480,7 +490,7 @@ export default function Home() {
       <footer className="border-t border-border py-8">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 text-xs text-muted">
           <span>&copy; {new Date().getFullYear()} Leonardo Apolonio</span>
-          <span className="font-mono">iam.quietscale.ai</span>
+          <a href="https://quietscale.ai" target="_blank" rel="noopener noreferrer" className="font-mono transition-colors hover:text-foreground">quietscale.ai</a>
         </div>
       </footer>
     </div>

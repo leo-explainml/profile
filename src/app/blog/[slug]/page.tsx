@@ -4,6 +4,7 @@ import { getAllPosts, getPost } from "@/lib/blog";
 import { ArrowLeft, Calendar } from "lucide-react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkBreaks from "remark-breaks";
 
 export function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -18,7 +19,7 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Leonardo Apolonio`,
+    title: `${post.title} — Quiet Scale`,
     description: post.description,
   };
 }
@@ -72,7 +73,7 @@ export default async function BlogPost({
         </header>
 
         <article className="prose-custom">
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
             {post.content}
           </ReactMarkdown>
         </article>

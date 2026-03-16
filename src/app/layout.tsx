@@ -13,22 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Leonardo Apolonio — Staff ML Engineer",
+  title: "Leonardo Apolonio — Staff ML Engineer | Quiet Scale",
   description:
-    "Staff Machine Learning Engineer specializing in NLP, LLMs, and text analytics. Building intelligent systems at scale.",
+    "Staff ML Engineer and founder of Quiet Scale. Building AI infrastructure, NLP systems, and tools that scale without the noise.",
   openGraph: {
-    title: "Leonardo Apolonio — Staff ML Engineer",
+    title: "Leonardo Apolonio — Staff ML Engineer | Quiet Scale",
     description:
-      "Staff Machine Learning Engineer specializing in NLP, LLMs, and text analytics.",
+      "Staff ML Engineer and founder of Quiet Scale. Building AI infrastructure, NLP systems, and tools that scale without the noise.",
     url: "https://iam.quietscale.ai",
-    siteName: "iam.quietscale.ai",
+    siteName: "Quiet Scale",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "Leonardo Apolonio — Staff ML Engineer",
+    title: "Leonardo Apolonio — Staff ML Engineer | Quiet Scale",
     description:
-      "Staff Machine Learning Engineer specializing in NLP, LLMs, and text analytics.",
+      "Staff ML Engineer and founder of Quiet Scale. Building AI infrastructure, NLP systems, and tools that scale without the noise.",
   },
 };
 

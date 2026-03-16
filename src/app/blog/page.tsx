@@ -3,8 +3,8 @@ import { getAllPosts } from "@/lib/blog";
 import { ArrowLeft, Calendar } from "lucide-react";
 
 export const metadata = {
-  title: "Blog — Leonardo Apolonio",
-  description: "Thoughts on ML, NLP, and building systems at scale.",
+  title: "Blog — Quiet Scale",
+  description: "Notes on building systems that scale. ML, NLP, and the work behind the work.",
 };
 
 export default function BlogIndex() {
@@ -29,7 +29,7 @@ export default function BlogIndex() {
           Blog
         </h1>
         <p className="mb-12 text-muted">
-          Thinking out loud about ML, NLP, and building things.
+          Notes on building systems that scale. ML, NLP, and the work behind the work.
         </p>
 
         {posts.length === 0 ? (
