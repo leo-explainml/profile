@@ -22,10 +22,11 @@ export const metadata: Metadata = {
       "Staff ML Engineer and founder of Quiet Scale. Building AI infrastructure, NLP systems, and tools that scale without the noise.",
     url: "https://iam.quietscale.ai",
     siteName: "Quiet Scale",
+    images: [{ url: "https://iam.quietscale.ai/og-image.svg", width: 1200, height: 630 }],
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Leonardo Apolonio — Staff ML Engineer | Quiet Scale",
     description:
       "Staff ML Engineer and founder of Quiet Scale. Building AI infrastructure, NLP systems, and tools that scale without the noise.",

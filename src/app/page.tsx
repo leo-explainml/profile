@@ -490,7 +490,10 @@ export default function Home() {
       <footer className="border-t border-border py-8">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-6 text-xs text-muted">
           <span>&copy; {new Date().getFullYear()} Leonardo Apolonio</span>
-          <a href="https://quietscale.ai" target="_blank" rel="noopener noreferrer" className="font-mono transition-colors hover:text-foreground">quietscale.ai</a>
+          <a href="https://quietscale.ai" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-80">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/quiet_scale_logo_dark.svg" alt="Quiet Scale" className="h-6" />
+          </a>
         </div>
       </footer>
     </div>
